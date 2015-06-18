@@ -212,6 +212,11 @@ h2{
 
 .resultHeader{
   margin-top: 30px;
+  font-family: 'Yellowtail', cursive;
+}
+
+.resultHeader h2{
+  font-size: 3.5em;
 }
 
 .resultsContent{
@@ -220,6 +225,12 @@ h2{
   background-color: lightsalmon;
   border: 2px solid #DD764D;
   box-shadow: 1px 5px 22px 6px #003F6B;
+}
+
+#resultsText p{
+  font-weight: bold;
+  font-size:1.2em;
+  margin-bottom: 20px;
 }
 
 .topThree .resultsContent{

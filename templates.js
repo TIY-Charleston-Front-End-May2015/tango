@@ -11,13 +11,13 @@ templates.placeMeResult = [
 "<img src=<%= image %> alt='' />",
 "</div>",
 "<div id='resultsText'class='col-md-5'>",
-"<p class='size'><%= size %></p>",
-"<p class='activities'><%= activities %></p>",
-"<p class='food'><%= food %></p>",
-"<p class='climate'><%= climate %></p>",
-"<p class='geography'><%= geography %></p>",
-"<p class='sports'><%= sports %></p>",
-"<p class='shopping'><%= shopping %></p>",
+"<p><%= size %></p>",
+"<p><%= activities %></p>",
+"<p><%= food %></p>",
+"<p><%= climate %></p>",
+"<p><%= geography %></p>",
+"<p><%= sports %></p>",
+"<p><%= shopping %></p>",
 "</div>"
 ].join("");
 
@@ -28,11 +28,3 @@ templates.radioQuestion= [
 templates.checkQuestion= [
   "<div class='Option'><input type='checkbox' class='answerChoice' name='myChecks' value='<%= value %>'>&nbsp;&nbsp;&nbsp;<%= choice %></div>",
 ].join();
-
-
-// Which best describes your personality?
-//
-// -I love being around people  value="largeCity"
-// -I enjoy people company but like time alone  value = "mediumCity"
-// -I a loner value = "smallCity"
-// -I dont really care value= ""
